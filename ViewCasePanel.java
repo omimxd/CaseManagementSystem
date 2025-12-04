@@ -135,7 +135,7 @@ public class ViewCasePanel extends JPanel {
                 }
 
             }else{
-                JOptionPane.showMessageDialog(this, "Can only remove when case is resolved.", "Notes", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Can only remove when case is resolved.", "Remove", JOptionPane.INFORMATION_MESSAGE);
             }
         });
 
@@ -247,6 +247,7 @@ public class ViewCasePanel extends JPanel {
         setCaseDetails(caseId);
     }
 }
+
 
 
 
